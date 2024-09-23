@@ -9,6 +9,7 @@ Um projeto que visa resolver o problema de falta de informação sobre produtos 
 * Ayla Rodovalho Assunção
 * Carlos Eduardo Pamponet Porto Lima
 * Maria Carolina Heeren Marques Oliveira
+OIII
 
 ## Professores responsáveis
 
