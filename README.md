@@ -1,6 +1,13 @@
-| Link                                      | Imagem                                    |
-|-------------------------------------------|-------------------------------------------|
-| [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=16017890&assignment_repo_type=AssignmentRepo) | ![Exemplo de fluxo de telas](docs/images/dermaDealTest.jpeg) |
+<table style="border: none; width: 100%;">
+    <tr>
+        <td style="border: none;">
+            [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=16017890&assignment_repo_type=AssignmentRepo)
+        </td>
+        <td style="border: none;">
+            ![Exemplo de fluxo de telas](docs/images/dermaDealTest.jpeg)
+        </td>
+    </tr>
+</table>
 
 # DermaDeal
 
