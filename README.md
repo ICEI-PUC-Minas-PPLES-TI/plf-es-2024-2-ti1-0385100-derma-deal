@@ -1,7 +1,11 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=16017890&assignment_repo_type=AssignmentRepo)
 # Nome do projeto
 
-Um projeto que visa resolver o problema de falta de informação sobre produtos de cuidado pessoal, em específico produtos de cuidado da pele. Devido à grande demanda para produtos de "skincare", atualmente os consumidores encontram uma oferta diversa de produtos ao seu dispor em farmácias, lojas de cosméticos, lojas especializadas e muito mais. Pela facilidade em encontrar produtos com diferentes funções, se torna difícil entender quais produtos se encaixam nas necessidades do consumidor, principalmente em um valor acessível. Além disso, lidar com as influências de grandes marcas e indivíduos divulgadores que fazem propagandas em redes sociais e marketing de produtos cada vez mais disfarçados de experiências reais, tem sido complexo. É um risco para pessoas que têm sensibilidades na pele, assim como é maçante para a maior parte da população, que possui uma vida financeira razoável, gastar uma parte de sua renda com produtos que podem não funcionar de acordo com suas prioridades, e acabam sendo descartados. Nosso objetivo é trazer informações concretas de forma simples para esses consumidores para que seja um processo sem muitas complexidades e que vá satisfazer o cliente, por meio de um site que envolva pesquisas específicas com respostas detalhadas sobre produtos, sua composição e suas funcionalidades.
+Um projeto que visa resolver o problema da falta de informação sobre produtos de cuidado pessoal, em específico, produtos de cuidado da pele. Devido à grande demanda por produtos de "skincare", atualmente, os consumidores encontram uma oferta diversificada de produtos ao seu dispor em farmácias, lojas de cosméticos, lojas especializadas e muito mais.
+
+Pela facilidade em encontrar produtos com diferentes funções, torna-se difícil entender quais produtos se encaixam nas necessidades do consumidor, principalmente a um valor acessível. Além disso, lidar com as influências de grandes marcas e de indivíduos divulgadores que fazem propagandas em redes sociais, utilizando marketing de produtos cada vez mais disfarçados de experiências reais, tem sido complexo. Esse cenário representa um risco para pessoas que têm sensibilidades na pele, assim como é maçante para a maior parte da população, que possui uma vida financeira razoável, gastar uma parte de sua renda com produtos que podem não funcionar de acordo com suas prioridades, resultando em descartes.
+
+Nosso objetivo é trazer informações concretas de forma simples para esses consumidores, para que o processo seja sem muitas complexidades e que vá satisfazer o cliente. Isso será feito por meio de um site que envolva pesquisas específicas com respostas detalhadas sobre produtos, sua composição e suas funcionalidades.
 
 ## Alunos integrantes da equipe
 
@@ -47,12 +51,17 @@ A documentação do projeto é estruturada da seguinte forma:
 
 # Contexto
 
-Um projeto que visa auxiliar na resolução do problema da falta de informações sobre produtos de cuidado pessoal, em específico produtos de cuidado da pele. Nosso objetivo é trazer informações concretas de forma simples para esses consumidores para que seja um processo sem muitas complexidades e que vá satisfazer o cliente, por meio de um site que envolva pesquisas específicas com respostas detalhadas sobre produtos de skincare, sua composição e suas funcionalidades. Nosso público alvo é amplo e abrange as faixas etárias de jovens adultos (18-30 anos) e adultos (31-60 anos), pessoas com peles sensíveis ou questões específicas que encontram dificuldades na escolha de produtos que atendam seus requisitos e sejam de custo-benefício.
+Um projeto que visa auxiliar na resolução do problema da falta de informações sobre produtos de cuidado pessoal, especificamente produtos de cuidado da pele. Nosso objetivo é fornecer informações concretas de forma simples para os consumidores, tornando o processo menos complexo e satisfatório. A solução será um site que oferece pesquisas específicas, com respostas detalhadas sobre produtos de skincare, suas composições e funcionalidades.
 
+Nosso público-alvo é amplo, abrangendo as faixas etárias de jovens adultos (18-30 anos) e adultos (31-60 anos), incluindo pessoas com peles sensíveis ou com questões específicas, que encontram dificuldades na escolha de produtos que atendam seus requisitos e sejam acessíveis em termos de custo-benefício.
 
 ## Problema
 
-Devido à grande demanda para produtos de skincare, atualmente os consumidores encontram uma oferta diversa de produtos ao seu dispor em farmácias, lojas de cosméticos, lojas especializadas e muito mais. Pela facilidade em encontrar produtos com diferentes funções, se torna difícil entender quais produtos se encaixam nas necessidades do consumidor, principalmente em um valor acessível. Além disso, lidar com as influências de grandes marcas e indivíduos divulgadores que fazem propagandas em redes sociais e marketing de produtos cada vez mais disfarçados de experiências reais, tem sido complexo. É um risco para pessoas que têm sensibilidades na pele, assim como é maçante para a maior parte da população, que possui uma vida financeira razoável, gastar uma parte de sua renda com produtos que podem não funcionar de acordo com suas prioridades, e acabam sendo descartados. A busca por informações que auxiliem na escolha correta desses produtos que atendam às necessidades dos consumidores é o maior empecilho nesse processo. Para atender pessoas que estão à procura da rotina correta para a melhora da sua pele, de forma que não tome tempo excessivo e que caiba em seus orçamentos, proporcionalmente à quantidade dos produtos presente nas embalagens, desenvolvemos um projeto que agrupe essas informações e coloque-as à disposição do cliente.
+Devido à grande demanda por produtos de skincare, atualmente os consumidores encontram uma oferta diversificada de produtos disponíveis em farmácias, lojas de cosméticos, lojas especializadas e muito mais. Com a facilidade de encontrar produtos com diferentes funções, torna-se difícil entender quais deles se encaixam nas necessidades do consumidor, principalmente em relação a um preço acessível.
+
+Além disso, lidar com as influências de grandes marcas e indivíduos divulgadores que fazem propagandas em redes sociais, utilizando marketing de produtos cada vez mais disfarçados de experiências reais, tem sido complexo. Isso representa um risco para pessoas que têm sensibilidades na pele e é maçante para a maior parte da população, que possui uma vida financeira razoável, gastar uma parte de sua renda com produtos que podem não funcionar de acordo com suas prioridades, acabando por serem descartados.
+
+A busca por informações que auxiliem na escolha correta desses produtos que atendam às necessidades dos consumidores é o maior empecilho nesse processo. Para atender às pessoas que estão à procura da rotina ideal para melhorar a sua pele, de forma que não tome tempo excessivo e que caiba em seus orçamentos, proporcionalmente à quantidade dos produtos presentes nas embalagens, desenvolvemos um projeto que agrupe essas informações e as coloque à disposição do cliente.
 
 ## Objetivos
 
@@ -273,7 +282,7 @@ Descrição para a tela XPTO
 
 **✳️✳️✳️ COLOQUE AQUI O DIAGRAMA DE FLUXO DE TELAS ✳️✳️✳️**
 
-![userflow](https://github.com/user-attachments/assets/aeebe1c6-5cec-498a-97f5-71643a8c6052)
+![Exemplo de fluxo de telas](images/exemplo-userflow.png)
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
