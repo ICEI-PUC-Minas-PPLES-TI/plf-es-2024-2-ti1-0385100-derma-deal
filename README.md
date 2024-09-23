@@ -227,15 +227,15 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 #### Proposta para Juan Pedro
 
-![Exemplo de fluxo de telas](docs/images/Proposta%20JUAN.png)
+![Exemplo de fluxo de telas](docs/images/Proposta%20JUAN.jpg)
 
 #### Proposta para Lara Angeli
 
-![Exemplo de fluxo de telas](docs/images/Proposta%20LARA.png)
+![Exemplo de fluxo de telas](docs/images/Proposta%20LARA.jpg)
 
 #### Proposta para Dona Teresa
 
-![Exemplo de fluxo de telas](docs/images/Proposta%20TERESA.png)
+![Exemplo de fluxo de telas](docs/images/Proposta%20TERESA.jpg)
 
 ## Requisitos
 
