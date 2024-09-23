@@ -94,59 +94,57 @@ A solução proposta, ao consolidar informações sobre produtos e oferecer reco
 
 ## Público-Alvo
 
-# Público-Alvo do Projeto
+O público-alvo do nosso projeto é diversificado, abrangendo diferentes perfis de consumidores que buscam informações e produtos de skincare. Abaixo, descrevemos alguns dos principais perfis que utilizarão a aplicação:
 
-  O público-alvo do nosso projeto é diversificado, abrangendo diferentes perfis de consumidores que buscam informações e produtos de skincare. Abaixo, descrevemos alguns dos principais perfis que utilizarão a aplicação:
-
-## 1. Jovens Adultos (18-30 anos)
+### 1. Jovens Adultos (18-30 anos)
 
 - **Conhecimentos Prévios:** Este grupo tende a ter algum conhecimento sobre cuidados com a pele, influenciado por redes sociais e influenciadores digitais.
 - **Relação com a Tecnologia:** Usuários familiarizados com tecnologia, utilizam smartphones e redes sociais regularmente para pesquisar e comprar produtos.
 - **Necessidades:** Buscam produtos acessíveis e eficazes, além de informações sobre ingredientes e rotinas de cuidados.
 - **Relações Hierárquicas:** Geralmente independentes, mas podem buscar recomendações de amigos e influenciadores.
 
-## 2. Adultos (31-60 anos)
+### 2. Adultos (31-60 anos)
 
 - **Conhecimentos Prévios:** Esse grupo pode ter um entendimento mais profundo sobre cuidados com a pele, muitas vezes adquiridos ao longo dos anos.
 - **Relação com a Tecnologia:** Moderadamente familiarizados com tecnologia; utilizam aplicativos e sites para compras e pesquisas, embora possam preferir interações mais tradicionais em alguns casos.
 - **Necessidades:** Interesse em produtos que tratem questões específicas, como envelhecimento ou pele sensível, e que sejam seguros e eficazes.
 - **Relações Hierárquicas:** Podem buscar conselhos de especialistas, como dermatologistas, e tendem a valorizar recomendações baseadas em experiências.
 
-## 3. Pessoas com Pele Sensível ou Condições Específicas
+### 3. Pessoas com Pele Sensível ou Condições Específicas
 
 - **Conhecimentos Prévios:** Este grupo pode ter conhecimento limitado sobre skincare, frequentemente em busca de produtos específicos que não irritem a pele.
 - **Relação com a Tecnologia:** Variada; alguns podem ser experientes em tecnologia, enquanto outros podem sentir-se intimidados. Precisam de uma interface simples e amigável.
 - **Necessidades:** Necessitam de informações claras sobre quais produtos são seguros e adequados para sua condição.
 - **Relações Hierárquicas:** Frequentemente consultam dermatologistas e podem participar de grupos de apoio online.
 
-## 4. Consumidores Conscientes Financeiramente
+### 4. Consumidores Conscientes Financeiramente
 
 - **Conhecimentos Prévios:** Geralmente têm um bom entendimento sobre produtos, mas são críticos quanto ao custo-benefício.
 - **Relação com a Tecnologia:** Familiarizados com tecnologia, utilizam comparadores de preços e sites de resenhas antes de realizar compras.
 - **Necessidades:** Buscam informações que ajudem a maximizar o valor do que estão comprando, preferindo produtos acessíveis e eficazes.
 - **Relações Hierárquicas:** Decisores independentes, mas podem ser influenciados por opiniões de amigos e familiares.
 
-# Personas Exemplares
+## Personas Exemplares
 
-## Persona 1: Juan Pedro, 18 anos
+### Persona 1: Juan Pedro, 18 anos
 
 - **Perfil:** Estudante, ativo em redes sociais.
 - **Objetivo:** Encontrar informações e produtos eficazes para tratar acne e as manchas na pele.
 - **Tecnologia:** Usuário frequente de apps de compras e redes sociais.
 
-## Persona 2: Lara Angeli, 21 anos
+### Persona 2: Lara Angeli, 21 anos
 
 - **Perfil:** Estagiária, quer aprender a começar e manter uma rotina básica de cuidados com a pele, mesmo com tempo e orçamento limitados.
 - **Objetivo:** Obter dicas de skincare que sejam acessíveis financeiramente, mas que ofereçam qualidade e eficácia.
 - **Tecnologia:** Utiliza a tecnologia com frequência, principalmente aplicativos como Instagram e TikTok, em busca de informações e dicas de cuidado pessoal.
 
-## Persona 3: Dona Teresa, 57 anos
+### Persona 3: Dona Teresa, 57 anos
 
 - **Perfil:** Aposentada, busca acessar informações confiáveis sobre cuidados para pele sensível e prevenção de câncer de pele, que é sua maior preocupação.
 - **Objetivo:** Obter orientações médicas e seguras sobre como tratar e proteger sua pele sensível após o diagnóstico de câncer de pele.
 - **Tecnologia:** Moderadamente confortável com tecnologia, tendo maior contato com a televisão. Valoriza a simplicidade na navegação.
 
-# Mapa de Stakeholders
+## Mapa de Stakeholders
 
 - **Usuários Finais:** Consumidores de diferentes idades e necessidades.
 - **Dermatologistas:** Profissionais que podem contribuir com informações valiosas.
