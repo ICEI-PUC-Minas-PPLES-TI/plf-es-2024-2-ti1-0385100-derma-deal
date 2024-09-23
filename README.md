@@ -280,7 +280,7 @@ Estes são os protótipos de telas do sistema.
 
 ### Protótipo Interativo
 
-[Protótipo Interativo (MarvelApp)](https://www.figma.com/proto/qgJ2MvwQ1HXDp30zz0Fhwa/TIAW-Project?node-id=0-1&t=cLTwFmM5rWIzoj4e-1)  
+[Protótipo Interativo (Figma)](https://www.figma.com/proto/qgJ2MvwQ1HXDp30zz0Fhwa/TIAW-Project?node-id=0-1&t=cLTwFmM5rWIzoj4e-1)  
 
 # Metodologia
 
