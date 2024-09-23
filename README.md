@@ -123,26 +123,6 @@ O público-alvo do nosso projeto é diversificado, abrangendo diferentes perfis 
 - **Necessidades:** Buscam informações que ajudem a maximizar o valor do que estão comprando, preferindo produtos acessíveis e eficazes.
 - **Relações Hierárquicas:** Decisores independentes, mas podem ser influenciados por opiniões de amigos e familiares.
 
-## Personas Exemplares
-
-### Persona 1: Juan Pedro, 18 anos
-
-- **Perfil:** Estudante, ativo em redes sociais.
-- **Objetivo:** Encontrar informações e produtos eficazes para tratar acne e as manchas na pele.
-- **Tecnologia:** Usuário frequente de apps de compras e redes sociais.
-
-### Persona 2: Lara Angeli, 21 anos
-
-- **Perfil:** Estagiária, quer aprender a começar e manter uma rotina básica de cuidados com a pele, mesmo com tempo e orçamento limitados.
-- **Objetivo:** Obter dicas de skincare que sejam acessíveis financeiramente, mas que ofereçam qualidade e eficácia.
-- **Tecnologia:** Utiliza a tecnologia com frequência, principalmente aplicativos como Instagram e TikTok, em busca de informações e dicas de cuidado pessoal.
-
-### Persona 3: Dona Teresa, 57 anos
-
-- **Perfil:** Aposentada, busca acessar informações confiáveis sobre cuidados para pele sensível e prevenção de câncer de pele, que é sua maior preocupação.
-- **Objetivo:** Obter orientações médicas e seguras sobre como tratar e proteger sua pele sensível após o diagnóstico de câncer de pele.
-- **Tecnologia:** Moderadamente confortável com tecnologia, tendo maior contato com a televisão. Valoriza a simplicidade na navegação.
-
 ## Mapa de Stakeholders
 
 - **Usuários Finais:** Consumidores de diferentes idades e necessidades.
@@ -179,18 +159,40 @@ Na etapa de Product Discovery, foram conduzidas pesquisas qualitativas e quantit
 
 
 ### Entrevistas qualitativas
-#### Entrevista 1
- - **Miro**
+
+![Exemplo de fluxo de telas](docs/images/Entrevistas%20Qualitativas.jpg)
 
 ### Highlights de pesquisa
 
- - **Miro**
+![Exemplo de fluxo de telas](docs/images/Highlights%20de%20Pesquisa.jpg)
 
 ## Etapa de Definição
 
 ### Personas
 
- - **Miro**
+#### Persona 1: Juan Pedro, 18 anos
+
+- **Perfil:** Estudante, ativo em redes sociais.
+- **Objetivo:** Encontrar informações e produtos eficazes para tratar acne e as manchas na pele.
+- **Tecnologia:** Usuário frequente de apps de compras e redes sociais.
+
+![Exemplo de fluxo de telas](docs/images/Persona%20JUAN.jpg)
+
+#### Persona 2: Lara Angeli, 21 anos
+
+- **Perfil:** Estagiária, quer aprender a começar e manter uma rotina básica de cuidados com a pele, mesmo com tempo e orçamento limitados.
+- **Objetivo:** Obter dicas de skincare que sejam acessíveis financeiramente, mas que ofereçam qualidade e eficácia.
+- **Tecnologia:** Utiliza a tecnologia com frequência, principalmente aplicativos como Instagram e TikTok, em busca de informações e dicas de cuidado pessoal.
+
+![Exemplo de fluxo de telas](docs/images/Persona%20LARA.jpg)
+
+#### Persona 3: Dona Teresa, 57 anos
+
+- **Perfil:** Aposentada, busca acessar informações confiáveis sobre cuidados para pele sensível e prevenção de câncer de pele, que é sua maior preocupação.
+- **Objetivo:** Obter orientações médicas e seguras sobre como tratar e proteger sua pele sensível após o diagnóstico de câncer de pele.
+- **Tecnologia:** Moderadamente confortável com tecnologia, tendo maior contato com a televisão. Valoriza a simplicidade na navegação.
+
+![Exemplo de fluxo de telas](docs/images/Persona%20TERESA.jpg)
 
 # Product Design
 
@@ -223,7 +225,17 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 ## Proposta de Valor
 
- - **Miro**
+#### Proposta para Juan Pedro
+
+![Exemplo de fluxo de telas](docs/images/Proposta%20JUAN.png)
+
+#### Proposta para Lara Angeli
+
+![Exemplo de fluxo de telas](docs/images/Proposta%20LARA.png)
+
+#### Proposta para Dona Teresa
+
+![Exemplo de fluxo de telas](docs/images/Proposta%20TERESA.png)
 
 ## Requisitos
 
