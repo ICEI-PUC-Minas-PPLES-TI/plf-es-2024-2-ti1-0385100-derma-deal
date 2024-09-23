@@ -276,7 +276,13 @@ Estes são os protótipos de telas do sistema.
 
 # Metodologia
 
-Detalhes sobre a organização do grupo e o ferramental empregado.
+Para o desenvolvimento do projeto, foi utilizada a metodologia ágil (Scrum), garantindo ciclos curtos de desenvolvimento e feedback constante. O processo envolveu as seguintes etapas:
+
+- **Planejamento**: Definição do escopo, priorização das funcionalidades e criação do backlog.
+- **Sprints semanais**: Pequenos ciclos de desenvolvimento com entregas incrementais, permitindo ajustes baseados no feedback.
+- **Testes de usabilidade**: Testes realizados com usuários para validar a experiência e fazer melhorias iterativas.
+- **Validação com stakeholders**: Apresentação contínua dos resultados para dermatologistas, potenciais usuários e representantes de marcas.
+
 
 ## Ferramentas
 
@@ -284,11 +290,9 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 
 | Ambiente                    | Plataforma | Link de acesso                                     |
 | --------------------------- | ---------- | -------------------------------------------------- |
-| Processo de Design Thinking | Miro       | https://miro.com/XXXXXXX ⚠️ EXEMPLO ⚠️        |
-| Repositório de código     | GitHub     | https://github.com/XXXXXXX ⚠️ EXEMPLO ⚠️      |
-| Hospedagem do site          | Render     | https://site.render.com/XXXXXXX ⚠️ EXEMPLO ⚠️ |
-| Protótipo Interativo       | MarvelApp  | https://marvelapp.com/XXXXXXX ⚠️ EXEMPLO ⚠️   |
-|                             |            |                                                    |
+| Processo de Design Thinking | Miro       | https://miro.com/app/board/uXjVKnBExMc=       |
+| Repositório de código     | GitHub     | https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2024-2-ti1-0385100-tiaw-grupo-2      |
+| Protótipo Interativo       | Figma  | https://www.figma.com/proto/qgJ2MvwQ1HXDp30zz0Fhwa/TIAW-Project?node-id=0-1&t=cLTwFmM5rWIzoj4e-1   |
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
@@ -298,7 +302,7 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 
 Divisão de papéis no grupo e apresentação da estrutura da ferramenta de controle de tarefas (Kanban).
 
-![Exemplo de Kanban](images/exemplo-kanban.png)
+![Exemplo de Kanban](docs/images/Kanban.png)
 
 > ⚠️ **APAGUE ESSA PARTE ANTES DE ENTREGAR SEU TRABALHO**
 >
