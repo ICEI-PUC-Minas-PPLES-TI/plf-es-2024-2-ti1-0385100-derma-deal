@@ -1,6 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=16017890&assignment_repo_type=AssignmentRepo)
 
-![Exemplo de fluxo de telas](docs/images/dermaDealTest.jpeg)
 # DermaDeal
 
 Um projeto que visa resolver o problema da falta de informação sobre produtos de cuidado pessoal, em específico, produtos de cuidado da pele. Devido à grande demanda por produtos de "skincare", atualmente, os consumidores encontram uma oferta diversificada de produtos ao seu dispor em farmácias, lojas de cosméticos, lojas especializadas e muito mais.
@@ -245,7 +244,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | ID      | Descrição do Requisito                                                              | Prioridade |
 | ------- | ------------------------------------------------------------------------------------- | ---------- |
 | RNF-001 | Tela responsiva. | ALTA     |
-| RNF-002 | Exibir uma política de privacidade clara sobre como os dados dos usuários serão usados e protegidos. | ALTA     | 
+| RNF-002 | Exibir uma política de privacidade clara e segura para o usuario. | ALTA     | 
 | RNF-003 | O site deve implementar autenticação de dois fatores para acesso a áreas sensíveis. | ALTA     | 
 | RNF-004 | Suporte para diferentes idiomas. | MÉDIA     | 
 | RNF-005 | O sistema deve permitir atualizações e manutenção sem interrupção significativa do serviço. | MÉDIA     | 
