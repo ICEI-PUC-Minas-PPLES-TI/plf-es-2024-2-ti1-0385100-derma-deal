@@ -13,7 +13,7 @@ Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
 
 ## Professores responsáveis
 
-* BOM DIA completo do professor 1
+* BOMDDDDDDDDDDDDDDDDD DIA completo do professor 1
 * Nome completo do professor 2
 
 
