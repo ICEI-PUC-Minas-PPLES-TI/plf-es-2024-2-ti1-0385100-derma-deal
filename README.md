@@ -168,7 +168,6 @@ Na etapa de Product Discovery, foram conduzidas pesquisas qualitativas e quantit
 | Usuários de redes sociais            | Consumidores com peles sensíveis    | Influencers/Celebridades (divulgadores) |
 | Profissionais de saúde e dermatologistas | Grandes marcas                     | Especialistas em Marketing            |
 | Vendedores e distribuidores          | Designers e Desenvolvedores de Produtos | Agências de saúde                    |
-|                                     | Órgãos Reguladores                  |                                       |
 
 
 ### Entrevistas qualitativas
