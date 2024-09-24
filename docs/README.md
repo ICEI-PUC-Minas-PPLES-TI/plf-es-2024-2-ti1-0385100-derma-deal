@@ -11,7 +11,7 @@ Informações básicas do projeto.
 
 ## Alunos integrantes da equipe
 
-  * [Carlos Eduardo Pamponet](https://github.com);
+  * [Carlos Eduardo Pamponet](https://github.com/Carlos-Eduardo-Pamponet);
   * [Ayla Assunção](https://github.com/aylaassuncao);
   * [Giuliano Percope](https://github.com/GiulianoLBP);
   * [Maria Carolina Heeren](https://github.com);
