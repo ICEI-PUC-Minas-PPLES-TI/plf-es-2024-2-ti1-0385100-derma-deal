@@ -11,7 +11,7 @@ Informações básicas do projeto.
 
 ## Alunos integrantes da equipe
 
-  * [Carlos Eduardo Pamponet](https://github.com);
+  * [Carlos Eduardo Pamponet](https://github.com/Carlos-Eduardo-Pamponet);
   * [Ayla Assunção](https://github.com/aylaassuncao);
   * [Giuliano Percope](https://github.com/GiulianoLBP);
   * [Maria Carolina Heeren](https://github.com);
@@ -264,7 +264,7 @@ Estes são os protótipos de telas do sistema.
 
 ### User Flow
 
-![Exemplo de fluxo de telas](images/User%20flow.png)
+![Exemplo de fluxo de telas](images/User%20flow%20v2.png)
 
 
 ### Protótipo Interativo
