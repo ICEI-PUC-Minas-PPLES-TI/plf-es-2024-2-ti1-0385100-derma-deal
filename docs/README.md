@@ -32,7 +32,7 @@ A documentação do projeto é estruturada da seguinte forma:
 6. Solução
 7. Referências Bibliográficas
 
-✅ [Documentação de Design Thinking (MIRO)](docs/files/PPLES-M%20-%20Grupo%202%20-%20Informação%20produtos%20de%20cuidado%20pessoal.pdf)
+✅ [Documentação de Design Thinking (MIRO)](files/PPLES-M%20-%20Grupo%202%20-%20Informação%20produtos%20de%20cuidado%20pessoal.pdf)
 
 # DermaDeal
 
@@ -152,11 +152,11 @@ Na etapa de Product Discovery, foram conduzidas pesquisas qualitativas e quantit
 
 ### Entrevistas qualitativas
 
-![Exemplo de fluxo de telas](docs/images/Entrevistas%20Qualitativas.jpg)
+![Exemplo de fluxo de telas](images/Entrevistas%20Qualitativas.jpg)
 
 ### Highlights de pesquisa
 
-![Exemplo de fluxo de telas](docs/images/Highlights%20de%20Pesquisa.jpg)
+![Exemplo de fluxo de telas](images/Highlights%20de%20Pesquisa.jpg)
 
 ## Etapa de Definição
 
@@ -168,7 +168,7 @@ Na etapa de Product Discovery, foram conduzidas pesquisas qualitativas e quantit
 - **Objetivo:** Encontrar informações e produtos eficazes para tratar acne e as manchas na pele.
 - **Tecnologia:** Usuário frequente de apps de compras e redes sociais.
 
-![Exemplo de fluxo de telas](docs/images/Persona%20JUAN.jpg)
+![Exemplo de fluxo de telas](images/Persona%20JUAN.jpg)
 
 #### Persona 2: Lara Angeli, 21 anos
 
@@ -176,7 +176,7 @@ Na etapa de Product Discovery, foram conduzidas pesquisas qualitativas e quantit
 - **Objetivo:** Obter dicas de skincare que sejam acessíveis financeiramente, mas que ofereçam qualidade e eficácia.
 - **Tecnologia:** Utiliza a tecnologia com frequência, principalmente aplicativos como Instagram e TikTok, em busca de informações e dicas de cuidado pessoal.
 
-![Exemplo de fluxo de telas](docs/images/Persona%20LARA.jpg)
+![Exemplo de fluxo de telas](images/Persona%20LARA.jpg)
 
 #### Persona 3: Dona Teresa, 57 anos
 
@@ -184,7 +184,7 @@ Na etapa de Product Discovery, foram conduzidas pesquisas qualitativas e quantit
 - **Objetivo:** Obter orientações médicas e seguras sobre como tratar e proteger sua pele sensível após o diagnóstico de câncer de pele.
 - **Tecnologia:** Moderadamente confortável com tecnologia, tendo maior contato com a televisão. Valoriza a simplicidade na navegação.
 
-![Exemplo de fluxo de telas](docs/images/Persona%20TERESA.jpg)
+![Exemplo de fluxo de telas](images/Persona%20TERESA.jpg)
 
 # Product Design
 
@@ -219,15 +219,15 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 #### Proposta para Juan Pedro
 
-![Exemplo de fluxo de telas](docs/images/Proposta%20JUAN.jpg)
+![Exemplo de fluxo de telas](images/Proposta%20JUAN.jpg)
 
 #### Proposta para Lara Angeli
 
-![Exemplo de fluxo de telas](docs/images/Proposta%20LARA.jpg)
+![Exemplo de fluxo de telas](images/Proposta%20LARA.jpg)
 
 #### Proposta para Dona Teresa
 
-![Exemplo de fluxo de telas](docs/images/Proposta%20TERESA.jpg)
+![Exemplo de fluxo de telas](images/Proposta%20TERESA.jpg)
 
 ## Requisitos
 
@@ -259,12 +259,12 @@ Artefatos relacionados com a interface e a interacão do usuário na proposta de
 
 Estes são os protótipos de telas do sistema.
 
-![Exemplo de wireframe](docs/images/Wireframe.png)
+![Exemplo de wireframe](images/Wireframe.png)
 
 
 ### User Flow
 
-![Exemplo de fluxo de telas](docs/images/User%20flow.png)
+![Exemplo de fluxo de telas](images/User%20flow.png)
 
 
 ### Protótipo Interativo
@@ -297,4 +297,4 @@ Relação de ferramentas empregadas pelo grupo durante o projeto.
 
 Divisão de papéis no grupo e apresentação da estrutura da ferramenta de controle de tarefas (Kanban).
 
-![Exemplo de Kanban](docs/images/Kanban.png)
+![Exemplo de Kanban](images/Kanban.png)
