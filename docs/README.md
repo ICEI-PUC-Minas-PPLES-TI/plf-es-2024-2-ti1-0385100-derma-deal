@@ -264,7 +264,6 @@ Estes são os protótipos de telas do sistema.
 
 ### User Flow
 
-![Exemplo de fluxo de telas](images/User%20flow%20v2.png)
 ![Exemplo de fluxo de telas](images/User%20flow%20v3.png)
 
 
