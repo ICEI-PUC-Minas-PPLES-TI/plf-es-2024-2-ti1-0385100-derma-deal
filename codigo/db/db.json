@@ -55,37 +55,59 @@
       "sobre": "Máscara de argila purificante que limpa profundamente os poros, absorvendo o excesso de oleosidade e deixando a pele renovada."
     }
   ]
-
-  "favoritos": [
-    {
-      "id": 1,
-      "titulo": "Hidratante Facial",
-      "imagem": "https://exemplo.com/imagem1.png",
-      "sobre": "Um hidratante leve e de rápida absorção, ideal para todos os tipos de pele. Enriquecido com ácido hialurônico para manter a pele hidratada por 24 horas."
+    "menu_lateral": {
+      "logo": {
+        "funcionalidade": "Redireciona para a página inicial."
+      },
+      "home": {
+        "funcionalidade": "Leva o usuário para a página principal."
+      },
+      "curtida": {
+        "funcionalidade": "Exibe itens que o usuário curtiu ou favoritou."
+      },
+      "pesquisa": {
+        "funcionalidade": "Permite que o usuário busque itens ou produtos."
+      },
+      "perfil": {
+        "funcionalidade": "Acesso às informações e configurações pessoais do usuário."
+      },
+      "explorar": {
+        "funcionalidade": "Permite que o usuário explore novos itens ou categorias."
+      },
+      "logout": {
+        "funcionalidade": "Faz o logout da conta do usuário."
+      }
     },
-    {
-      "id": 2,
-      "titulo": "Sérum Vitamina C",
-      "imagem": "https://exemplo.com/imagem2.png",
-      "sobre": "Sérum antioxidante com vitamina C pura, que ilumina a pele e ajuda a reduzir linhas finas e manchas escuras."
+    "anuncio": {
+      "area_ad": {
+        "funcionalidade": "Espaço destinado a anúncios publicitários ou promocionais."
+      }
     },
-    {
-      "id": 3,
-      "titulo": "Protetor Solar FPS 50",
-      "imagem": "https://exemplo.com/imagem3.png",
-      "sobre": "Protetor solar de alta proteção com FPS 50, ideal para uso diário. Ajuda a prevenir o envelhecimento precoce causado pela exposição ao sol."
+    "mais_procurados": {
+      "item": {
+        "imagem": {
+          "funcionalidade": "Espaço para exibir a imagem do produto."
+        },
+        "texto": {
+          "funcionalidade": "Nome ou breve descrição do produto."
+        },
+        "preco": {
+          "funcionalidade": "Exibe o preço do produto."
+        },
+        "descricao": {
+          "funcionalidade": "Descrição adicional ou informações complementares."
+        }
+      }
     },
-    {
-      "id": 4,
-      "titulo": "Esfoliante Facial",
-      "imagem": "https://exemplo.com/imagem4.png",
-      "sobre": "Esfoliante suave com microesferas que removem células mortas, deixando a pele mais lisa e radiante."
-    },
-    {
-      "id": 5,
-      "titulo": "Máscara Facial de Argila",
-      "imagem": "https://exemplo.com/imagem5.png",
-      "sobre": "Máscara de argila purificante que limpa profundamente os poros, absorvendo o excesso de oleosidade e deixando a pele renovada."
+    "icones_superiores": {
+      "notificacoes": {
+        "funcionalidade": "Atalho para ver notificações."
+      },
+      "configuracoes": {
+        "funcionalidade": "Atalho para acessar as configurações."
+      },
+      "perfil_usuario": {
+        "funcionalidade": "Atalho para acessar o perfil do usuário."
+      }
     }
-  ]
 }
