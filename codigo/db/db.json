@@ -110,4 +110,82 @@
         "funcionalidade": "Atalho para acessar o perfil do usuário."
       }
     }
-}
+      "Menu Superior": {
+        "logo": "DERMA DEAL",
+        "opcoes": [
+          {
+            "icone": "perfil",
+            "label": "Minha Conta",
+            "link": "/minha-conta",
+            "funcionalidade": "Redireciona o usuário para sua conta pessoal."
+          },
+          {
+            "icone": "sacola",
+            "label": "Resenhas",
+            "link": "/resenhas",
+            "funcionalidade": "Leva o usuário para a página onde ele pode ver e escrever resenhas."
+          },
+          {
+            "icone": "favoritos",
+            "label": "Produtos",
+            "link": "/produtos",
+            "funcionalidade": "Direciona para a lista de produtos disponíveis no site."
+          },
+          {
+            "label": "Início",
+            "link": "/inicio",
+            "funcionalidade": "Retorna o usuário para a página principal."
+          },
+          {
+            "label": "Ajuda",
+            "link": "/ajuda",
+            "funcionalidade": "Redireciona o usuário para a página de suporte ou perguntas frequentes."
+          }
+        ]
+      },
+      "produto": {
+        "id": 1,
+        "nome": "Nome do Produto",
+        "especificacao": "Especificação do Produto",
+        "categoria": "Categoria do Produto",
+        "imagem": "url_da_imagem",
+        "classificacao": 0.0,
+        "detalhes": "Informações detalhadas do produto",
+        "funcionalidade": "Exibe os detalhes do produto, incluindo nome, especificação, categoria, imagem e avaliação média."
+      },
+      "ofertas": [
+        {
+          "site": "Site X",
+          "preco_antigo": "R$ 0000,00",
+          "preco_atual": "R$ 000,00",
+          "link": "url_para_site_x",
+          "funcionalidade": "Exibe a oferta do produto no Site X, com o preço antigo riscado e o preço atual. O botão 'Ver Mais' redireciona para o site da oferta."
+        },
+        {
+          "site": "Site Y",
+          "preco_antigo": "R$ 0000,00",
+          "preco_atual": "R$ 000,00",
+          "link": "url_para_site_y",
+          "funcionalidade": "Exibe a oferta do produto no Site Y, com o preço antigo riscado e o preço atual. O botão 'Ver Mais' redireciona para o site da oferta."
+        },
+        {
+          "site": "Site Z",
+          "preco_antigo": "R$ 0000,00",
+          "preco_atual": "R$ 000,00",
+          "link": "url_para_site_z",
+          "funcionalidade": "Exibe a oferta do produto no Site Z, com o preço antigo riscado e o preço atual. O botão 'Ver Mais' redireciona para o site da oferta."
+        }
+      ],
+      "frete": {
+        "cep": "00000-000",
+        "prazo_entrega": "XX dias",
+        "custo_frete": "R$ XX,00",
+        "funcionalidade": "Permite que o usuário insira o CEP para calcular o frete e o prazo de entrega ao clicar em 'OK'."
+      },
+      "cupom_desconto": {
+        "codigo": "CUPOM123",
+        "desconto": "R$ XX,00",
+        "funcionalidade": "Permite que o usuário insira um código de desconto. Ao clicar em 'OK', o desconto é aplicado no preço final."
+      }
+    }
+  }
