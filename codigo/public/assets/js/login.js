@@ -12,10 +12,10 @@
 // Página inicial de Login
 const LOGIN_URL = "/modulos/login/login.html";
 let RETURN_URL = "/modulos/login/index.html";
-const API_URL = '/usuarios';
+const API_URL = '/users';
 
 // Objeto para o banco de dados de usuários baseado em JSON
-var db_usuarios = {};
+var db_users = {};
 
 // Objeto para o usuário corrente
 var usuarioCorrente = {};
@@ -46,17 +46,17 @@ function initLoginApp() {
         RETURN_URL = returnURL || RETURN_URL;
 
         // INICIALIZA BANCO DE DADOS DE USUÁRIOS
-        carregarUsuarios(() => {
+        carregarusers(() => {
             console.log('Usuários carregados...');
         });
     }
 };
 
-function carregarUsuarios(callback) {
+function carregarusers(callback) {
     fetch(API_URL)
         .then(response => response.json())
         .then(data => {
-            db_usuarios = data;
+            db_users = data;
             callback();
         })
         .catch(error => {
@@ -67,10 +67,10 @@ function carregarUsuarios(callback) {
 
 // Verifica se o login do usuário está ok e, se positivo, direciona para a página inicial
 function loginUser(login, senha) {
-    // Verifica todos os itens do banco de dados de usuarios 
+    // Verifica todos os itens do banco de dados de users 
     // para localizar o usuário informado no formulario de login
-    for (var i = 0; i < db_usuarios.length; i++) {
-        var usuario = db_usuarios[i];
+    for (var i = 0; i < db_users.length; i++) {
+        var usuario = db_users[i];
 
         // Se encontrou login e senha, carrega usuário corrente e salva no Session Storage
         if (login == usuario.login.email && senha == usuario.login.password) {
@@ -114,8 +114,8 @@ function addUser(nome, login, senha, email) {
     })
         .then(response => response.json())
         .then(data => {
-            // Adiciona o novo usuário na variável db_usuarios em memória
-            db_usuarios.push(usuario);
+            // Adiciona o novo usuário na variável db_users em memória
+            db_users.push(usuario);
             displayMessage("Usuário inserido com sucesso");
         })
         .catch(error => {

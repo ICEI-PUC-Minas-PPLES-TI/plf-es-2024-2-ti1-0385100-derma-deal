@@ -1,5 +1,5 @@
 {
-  "usuarios": [
+  "users": [
     {
       "id": 1,
       "name": "Thiago Perilo",
@@ -37,7 +37,7 @@
       },
       "favoriteItems": [
         {
-          "id": 1,
+          "favoriteItemId": 1729724094702,
           "itemId": 202,
           "name": "Hydrating Moisturizer",
           "entryDate": "2024-09-15",

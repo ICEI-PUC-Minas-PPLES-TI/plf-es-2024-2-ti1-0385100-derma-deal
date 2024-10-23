@@ -9,16 +9,16 @@
     <script src="../../assets/js/login.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
-        function exibeUsuarios() {
+        function exibeusers() {
             // Popula a tabela com os registros do banco de dados
-            let listaUsuarios = '';
-            for (i = 0; i < db_usuarios.length; i++) {
-                let usuario = db_usuarios[i];
-                listaUsuarios += `<tr><td scope="row">${usuario.nome}</td><td>${usuario.login}</td><td>${usuario.email}</td></tr>`;
+            let listausers = '';
+            for (i = 0; i < db_users.length; i++) {
+                let usuario = db_users[i];
+                listausers += `<tr><td scope="row">${usuario.nome}</td><td>${usuario.login}</td><td>${usuario.email}</td></tr>`;
             }
 
             // Substitui as linhas do corpo da tabela
-            document.getElementById("table-usuarios").innerHTML = listaUsuarios
+            document.getElementById("table-users").innerHTML = listausers
 
         }
 
@@ -31,7 +31,7 @@
             document.getElementById('nomeUsuario').innerHTML = usuarioCorrente.nome;
 
             // Carrega usuários e executa a função de exibição
-            carregarUsuarios (exibeUsuarios);
+            carregarusers (exibeusers);
         }
 
         // Associa ao evento de carga da página a função para verificar se o usuário está logado
@@ -47,7 +47,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <table id="grid-usuarios" class="table table-striped">
+                <table id="grid-users" class="table table-striped">
                     <thead>
                         <tr>
                             <th scope="col">Nome</th>
@@ -55,7 +55,7 @@
                             <th scope="col">E-mail</th>
                         </tr>
                     </thead>
-                    <tbody id="table-usuarios">
+                    <tbody id="table-users">
                         <tr>
                             <td></td>
                             <td></td>

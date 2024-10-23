@@ -1,0 +1,184 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Thiago Perilo",
+        "birthday": "1990-06-15",
+        "personTypeId": 1,
+        "login": {
+          "email": "thiago.perilo@example.com",
+          "password": "securePassword123"
+        },
+        "favoriteItems": [
+          {
+            "id": 1,
+            "itemId": 201,
+            "name": "Gentle Cleanser",
+            "entryDate": "2024-09-10",
+            "exitDate": "2024-10-01",
+            "typeId": 1,
+            "price": {
+              "currency": "USD",
+              "amount": 19.99
+            }
+          }
+        ],
+        "cpf": "123.456.789-00",
+        "phoneNumber": "(11) 98765-4321"
+      },
+      {
+        "id": 2,
+        "name": "Giu Test",
+        "birthday": "1999-06-15",
+        "personTypeId": 1,
+        "login": {
+          "email": "giu@example.com",
+          "password": "123"
+        },
+        "favoriteItems": [
+          {
+            "id": 1,
+            "itemId": 202,
+            "name": "Hydrating Moisturizer",
+            "entryDate": "2024-09-15",
+            "exitDate": null,
+            "typeId": 2,
+            "price": {
+              "currency": "USD",
+              "amount": 29.99
+            }
+          }
+        ],
+        "cpf": "123.456.789-10",
+        "phoneNumber": "(11) 94765-4321"
+      }
+    ],
+    "itemTypes": [
+      {
+        "id": 1,
+        "name": "Cleanser"
+      },
+      {
+        "id": 2,
+        "name": "Moisturizer"
+      },
+      {
+        "id": 3,
+        "name": "Serum"
+      },
+      {
+        "id": 4,
+        "name": "Sunscreen"
+      },
+      {
+        "id": 5,
+        "name": "Exfoliator"
+      }
+    ],
+    "personTypes": [
+      {
+        "id": 1,
+        "name": "especialista",
+        "permissions": [
+          "can_publish",
+          "can_add_favorites"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "comum",
+        "permissions": [
+          "can_add_favorites"
+        ]
+      }
+    ],
+    "favoriteItems": [
+      {
+        "id": 1,
+        "userId": 1,
+        "itemId": 201,
+        "entryDate": "2024-09-10",
+        "exitDate": "2024-10-01"
+      },
+      {
+        "id": 2,
+        "userId": 1,
+        "itemId": 202,
+        "entryDate": "2024-09-15",
+        "exitDate": null
+      },
+      {
+        "id": 3,
+        "userId": 1,
+        "itemId": 203,
+        "entryDate": "2024-09-20",
+        "exitDate": null
+      },
+      {
+        "id": 4,
+        "userId": 1,
+        "itemId": 204,
+        "entryDate": "2024-09-25",
+        "exitDate": null
+      },
+      {
+        "id": 5,
+        "userId": 1,
+        "itemId": 205,
+        "entryDate": "2024-09-30",
+        "exitDate": null
+      }
+    ],
+    "productItems": [
+      {
+        "id": 201,
+        "name": "Gentle Cleanser",
+        "entryDate": "2024-09-10",
+        "price": {
+          "currency": "USD",
+          "amount": 19.99
+        },
+        "typeId": 1
+      },
+      {
+        "id": 202,
+        "name": "Hydrating Moisturizer",
+        "entryDate": "2024-09-15",
+        "price": {
+          "currency": "USD",
+          "amount": 29.99
+        },
+        "typeId": 2
+      },
+      {
+        "id": 203,
+        "name": "Vitamin C Serum",
+        "entryDate": "2024-09-20",
+        "price": {
+          "currency": "USD",
+          "amount": 39.99
+        },
+        "typeId": 3
+      },
+      {
+        "id": 204,
+        "name": "Broad Spectrum Sunscreen",
+        "entryDate": "2024-09-25",
+        "price": {
+          "currency": "USD",
+          "amount": 24.99
+        },
+        "typeId": 4
+      },
+      {
+        "id": 205,
+        "name": "Exfoliating Scrub",
+        "entryDate": "2024-09-30",
+        "price": {
+          "currency": "USD",
+          "amount": 15.99
+        },
+        "typeId": 5
+      }
+    ]
+  }

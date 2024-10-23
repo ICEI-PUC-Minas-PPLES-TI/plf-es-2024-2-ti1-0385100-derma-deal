@@ -14,35 +14,77 @@
             <!-- Nome do item será inserido aqui -->
             <h2 id="item-name">Nome do Item</h2>
             <button id="add-favorite-btn">Adicionar aos Favoritos</button>
+            <button id="delete-favorite-btn">Tirar dos Favoritos</button>
+            <button id="get-favorite-btn">Exibir Favoritos</button>
+        </div>
+
+        <div id="favorite-items-list">
+            <!-- Aqui os itens favoritados serão exibidos -->
         </div>
     </div>
 
-    <script src="../../assets/js/app.js"></script>
-    <script src="../../assets/js/itemFavorite.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/itemFavorite.js"></script>
+    <script src="/assets/js/favoriteService.js"></script>
     <script>
+        // Definir o ID do usuário (você pode usar uma variável dinâmica se for o caso)
+        const userId = 2; // Altere conforme necessário
+
         // ID do produto que você deseja adicionar
-            const productId = 202; // Mude para o ID do produto que você deseja adicionar
+        const productId = 202; // Mude para o ID do produto que você deseja adicionar
 
-    // Função para buscar e exibir informações do item
-    function loadItem() {
-        fetch('/productItems/' + productId)
-            .then(response => response.json())
-            .then(item => {
-                document.getElementById('item-name').innerText = item.name; // Exibe o nome do item
-                // Adiciona evento para o botão de adicionar aos favoritos
-                document.getElementById('add-favorite-btn').onclick = function() {
-                    console.log('Botão clicado, tentando adicionar aos favoritos...'); // Log para debugar
-                    favoriteItem(item); // Passa o item completo
-                };
-            })
-            .catch(error => {
-                console.error('Erro ao buscar item:', error);
-                alert('Erro ao buscar item');
-            });
-    }
+        // Função para buscar e exibir informações do item
+        function loadItem() {
+            fetch('/productItems/' + productId)
+                .then(response => response.json())
+                .then(item => {
+                    document.getElementById('item-name').innerText = item.name; // Exibe o nome do item
 
-    // Carrega as informações do item ao abrir a página
-    window.onload = loadItem;
+                    // Adiciona evento para o botão de adicionar aos favoritos
+                    document.getElementById('add-favorite-btn').onclick = function() {
+                        console.log('Botão clicado, tentando adicionar aos favoritos...');
+                        postFavoriteItem(userId, item); // Adiciona item aos favoritos
+                    };
+
+                    // Adiciona evento para o botão de remover dos favoritos
+                    document.getElementById('delete-favorite-btn').onclick = function() {
+                        console.log('Botão clicado, tentando remover dos favoritos...');
+                        deleteFavoriteItem(userId, item.id); // Remove item dos favoritos
+                    };
+
+                    // Adiciona evento para o botão de exibir itens favoritados
+                    document.getElementById('get-favorite-btn').onclick = function() {
+                        console.log('Botão clicado, buscando itens favoritados...');
+                        getFavoriteItems(userId).then(items => {
+                            displayFavorites(items); // Exibe os itens favoritos
+                        });
+                    };
+                })
+                .catch(error => {
+                    console.error('Erro ao buscar item:', error);
+                    alert('Erro ao buscar item');
+                });
+        }
+
+        // Função para exibir os itens favoritos na tela
+        function displayFavorites(favorites) {
+            const favoritesList = document.getElementById('favorite-items-list');
+            favoritesList.innerHTML = ''; // Limpa a lista atual
+
+            if (favorites.length === 0) {
+                favoritesList.innerHTML = '<p>Nenhum item favorito encontrado.</p>';
+            } else {
+                favorites.forEach(favorite => {
+                    const itemElement = document.createElement('div');
+                    itemElement.className = 'favorite-item';
+                    itemElement.innerText = `Nome: ${favorite.name}`;
+                    favoritesList.appendChild(itemElement);
+                });
+            }
+        }
+
+        // Carrega as informações do item ao abrir a página
+        window.onload = loadItem;
     </script>
 </body>
 </html>

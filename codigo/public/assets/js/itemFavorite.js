@@ -14,7 +14,7 @@ function favoriteItem(product) {
     }
 
     // Faz uma requisição para obter os dados atuais do usuário do servidor
-    fetch(`/usuarios/${usuarioCorrente.id}`)
+    fetch(`/users/${usuarioCorrente.id}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Erro ao buscar usuário');
@@ -47,7 +47,7 @@ function favoriteItem(product) {
                 console.log('Atualizando favoritos:', data.favoriteItems); // Log para verificar os favoritos
 
                 // Envie os dados atualizados de volta para o servidor
-                return fetch(`/usuarios/${usuarioCorrente.id}`, {
+                return fetch(`/users/${usuarioCorrente.id}`, {
                     method: 'PUT',
                     headers: {
                         'Content-Type': 'application/json',
