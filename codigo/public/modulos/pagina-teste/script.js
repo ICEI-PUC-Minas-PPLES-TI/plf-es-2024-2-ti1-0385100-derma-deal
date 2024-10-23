@@ -15,7 +15,7 @@ function updateButtonState() {
 updateButtonState();
 
 favoriteBtn.addEventListener('click', function() {
-    const productId = 'produto1';
+    const productId = 'produto1'; // productId fixo como exemplo risk**
 
     if (favorites.includes(productId)) {
         favorites = favorites.filter(id => id !== productId);

@@ -30,3 +30,10 @@ body {
 .icon-button.active {
     background-color: red; /* Cor ativa (vermelha) */
 }
+
+.product-image {
+  max-width: 170px; /* Tamanho maximo generico risk** */
+  max-height: 170px; 
+  width: auto; 
+  height: auto; 
+}
