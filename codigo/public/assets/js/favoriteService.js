@@ -33,7 +33,8 @@ async function postFavoriteItem(userId, newItem) {
             entryDate: newItem.entryDate,
             exitDate: null,              // Null porque o item não foi removido
             typeId: newItem.typeId,
-            price: newItem.price
+            price: newItem.price,
+            imagem: newItem.imagem
           };
   
           userData.favoriteItems.push(favoriteItem);
@@ -59,28 +60,49 @@ async function postFavoriteItem(userId, newItem) {
   }
   
 
-async function deleteFavoriteItem(userId, itemId) {
-  try {
-    const response = await fetch(`${apiUrl}/users/${userId}`);
-    const userData = await response.json();
+  async function deleteFavoriteItem(userId, itemId) {
+    try {
+        const response = await fetch(`${apiUrl}/users/${userId}`);
+        
+        if (!response.ok) {
+            throw new Error(`Erro ao buscar dados do usuário: ${response.statusText}`);
+        }
 
-    if (userData && userData.favoriteItems) {
-      const updatedFavorites = userData.favoriteItems.filter(item => item.itemId !== itemId);
+        const userData = await response.json();
 
-      userData.favoriteItems = updatedFavorites;
-      await fetch(`${apiUrl}/users/${userId}`, {
-        method: 'PUT',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(userData)
-      });
+        // Verifica se o usuário tem favoritos
+        if (userData && userData.favoriteItems) {
+          const sexo = userData.favoriteItems
+            // Filtra os itens favoritos, removendo o item que queremos deletar
+            const updatedFavorites = userData.favoriteItems.filter(item => item.itemId !== itemId);
+            console.log({updatedFavorites,sexo,itemId})
+            // Atualiza a lista de favoritos no objeto do usuário
+            userData.favoriteItems = updatedFavorites;
 
-      console.log('Item removido dos favoritos com sucesso!');
-    } else {
-      throw new Error("Erro ao remover item favorito.");
+            // Enviando a atualização de volta ao servidor
+            const updateResponse = await fetch(`${apiUrl}/users/${userId}`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(userData)
+            });
+
+            // Verifique se a atualização foi bem-sucedida
+            if (!updateResponse.ok) {
+                throw new Error(`Erro ao atualizar os favoritos: ${updateResponse.statusText}`);
+            }
+
+            console.log('Item removido dos favoritos com sucesso!');
+        } else {
+            throw new Error("Nenhum item favorito encontrado para este usuário.");
+        }
+    } catch (error) {
+        console.error('Erro ao remover item favorito:', error);
     }
-  } catch (error) {
-    console.error('Erro ao remover item favorito:', error);
-  }
 }
+
+
+
+export { deleteFavoriteItem, getFavoriteItems, postFavoriteItem };
+

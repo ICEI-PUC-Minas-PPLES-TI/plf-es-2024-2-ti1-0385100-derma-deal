@@ -20,7 +20,34 @@
           "price": {
             "currency": "USD",
             "amount": 19.99
-          }
+          },
+          "imagem": "/assets/images/n1.png"
+        },
+        {
+          "id": 2,
+          "itemId": 202,
+          "name": "Hydrating Moisturizer",
+          "entryDate": "2024-09-15",
+          "exitDate": null,
+          "typeId": 2,
+          "price": {
+            "currency": "USD",
+            "amount": 29.99
+          },
+          "imagem": "/assets/images/n2.png"
+        },
+        {
+          "favoriteItemId": 1730418845558,
+          "itemId": 203,
+          "name": "Vitamin C Serum",
+          "entryDate": "2024-09-20",
+          "exitDate": null,
+          "typeId": 3,
+          "price": {
+            "currency": "USD",
+            "amount": 39.99
+          },
+          "imagem": "/assets/images/n3.jpeg"
         }
       ],
       "cpf": "123.456.789-00",
@@ -37,7 +64,7 @@
       },
       "favoriteItems": [
         {
-          "favoriteItemId": 1729724094702,
+          "id": 2,
           "itemId": 202,
           "name": "Hydrating Moisturizer",
           "entryDate": "2024-09-15",
@@ -46,7 +73,8 @@
           "price": {
             "currency": "USD",
             "amount": 29.99
-          }
+          },
+          "imagem": "/assets/images/n2.png"
         }
       ],
       "cpf": "123.456.789-10",
@@ -138,7 +166,8 @@
         "currency": "USD",
         "amount": 19.99
       },
-      "typeId": 1
+      "typeId": 1,
+      "imagem": "/assets/images/n1.png"
     },
     {
       "id": 202,
@@ -148,7 +177,8 @@
         "currency": "USD",
         "amount": 29.99
       },
-      "typeId": 2
+      "typeId": 2,
+      "imagem": "/assets/images/n2.png"
     },
     {
       "id": 203,
@@ -158,7 +188,8 @@
         "currency": "USD",
         "amount": 39.99
       },
-      "typeId": 3
+      "typeId": 3,
+      "imagem": "/assets/images/n3.jpeg"
     },
     {
       "id": 204,
@@ -168,7 +199,8 @@
         "currency": "USD",
         "amount": 24.99
       },
-      "typeId": 4
+      "typeId": 4,
+      "imagem": "/assets/images/n4.jpeg"
     },
     {
       "id": 205,
@@ -178,7 +210,8 @@
         "currency": "USD",
         "amount": 15.99
       },
-      "typeId": 5
+      "typeId": 5,
+      "imagem": "/assets/images/n5.jpeg"
     }
   ]
 }

@@ -68,3 +68,39 @@ main {
     height: 150px;
     object-fit: cover;
 }
+
+/* Ajuste do layout dos produtos */
+.product-card {
+    background-color: #f5e6ff; /* Roxo claro */
+    border: 2px solid #ee0b69; /* Borda em tom de roxo mais escuro */
+    border-radius: 8px; /* Arredondamento das bordas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Animação ao passar o mouse */
+}
+
+/* Estilo das imagens dos produtos */
+.card-img-top {
+    border-radius: 8px 8px 0 0; /* Imagens sem arredondamento no rodapé */
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Estilo do título do produto */
+.card-title {
+    color: #b633b6; /* Tom mais escuro de roxo */
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Animação de hover para o card */
+.product-card:hover {
+    transform: translateY(-5px); /* Elevação ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra mais forte */
+}
+
+/* Estilo de espaçamento e alinhamento do container */
+#product-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
