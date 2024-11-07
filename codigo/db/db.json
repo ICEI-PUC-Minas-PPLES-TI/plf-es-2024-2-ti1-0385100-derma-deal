@@ -218,6 +218,7 @@
         "currency": "USD",
         "amount": 19.99
       },
+      "interections": 2,
       "typeId": 1,
       "imagem": "/assets/images/n1.png"
     },
@@ -229,6 +230,7 @@
         "currency": "USD",
         "amount": 29.99
       },
+      "interections": 2,
       "typeId": 2,
       "imagem": "/assets/images/n2.png"
     },
@@ -240,6 +242,7 @@
         "currency": "USD",
         "amount": 39.99
       },
+      "interections": 2,
       "typeId": 3,
       "imagem": "/assets/images/n3.jpeg"
     },
@@ -251,6 +254,7 @@
         "currency": "USD",
         "amount": 24.99
       },
+      "interections": 2,
       "typeId": 4,
       "imagem": "/assets/images/n4.jpeg"
     },
@@ -262,6 +266,7 @@
         "currency": "USD",
         "amount": 15.99
       },
+      "interections": 2,
       "typeId": 5,
       "imagem": "/assets/images/n5.jpeg"
     }
