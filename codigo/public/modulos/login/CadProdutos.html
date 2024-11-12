@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/codigo/public/assets/css/CadProdutos.css">
+    <title>DermaDeal</title>
+</head>
+<body>
+    <main>
+        <p>Cadastro de Produtos</p>
+        <form action="" id="formProduto">
+        <label for="cad_pd_id">ID:</label>
+        <input type="number" name="id" id="cad_pd_id">
+        <label for="cad_pd_title">Nome do Produto:</label>
+        <input type="text" name="name" id="cad_pd_name">
+        <label for="cad_pd_image">Link da Imagem:</label>
+        <input type="url" name="image" id="cad_pd_image">
+        <label for="cad_pd_moeda">Tipo da Moeda:</label>
+        <input type="text" name="Moeda" id="cad_pd_moeda">
+        <label for="cad_pd_price">Preço:</label>
+        <input type="number" name="price" id="cad_pd_price">
+        <label for="cad_pd_description">Descrição:</label>
+        <textarea name="description" id="cad_pd_description"></textarea>
+        <button type="submit" id="btnInsert">Cadastrar</button>
+        </form>
+    </main>
+</body>
+<script src="/codigo/public/assets/js/CadProdutos.js"></script>
+</html>

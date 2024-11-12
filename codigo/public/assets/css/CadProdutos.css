@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+form{
+    display: grid;
+    margin: 5px;
+    color: white;
+}
+
+input{
+    height: 25px;
+    border-radius: 5px;
+}
+
+button{
+    height: 30px;
+    background-color: green;
+    color: white;
+    margin-top: 8px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+p{
+    color: white;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+textarea{
+    border-radius: 5px;
+}
+
+label{
+    margin-top: 10px;
+}
