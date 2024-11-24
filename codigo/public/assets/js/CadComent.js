@@ -1,13 +1,13 @@
 function init() {
     // Define uma variável para o formulário de produto
-    formProduto = document.getElementById("coment");
+    formComent = document.getElementById("coment");
 
     // Adiciona funções para tratar os eventos 
     btnInsert = document.getElementById("btnInsert");
     btnInsert.addEventListener('click', function () {
         // Verifica se o formulário está preenchido corretamente
-        if (!formContato.checkValidity()) {
-            displayMessage("Preencha o formulário corretamente.");
+        if (!formComent.checkValidity()) {
+            console.log("Preencha o formulário corretamente.");
             return;
         }
 
@@ -15,18 +15,19 @@ function init() {
         let campoComent = document.getElementById('coment').value;
 
         // Cria um objeto com os dados do produto
-        let comentario = [
+        let comentarios = [
             {
-            id: 1,
-            coment:campoComent,
+            coment: campoComent,
             }
         ];
 
+        JSON.stringify(comentarios);
+
         // Cria o produto no banco de dados
-        createComentario(comentario, exibeComentarios);
+        createComentario(comentarios, coment);
 
         // Limpa o formulario
-        formContato.reset()
+        formComent.reset()
     });
     /*
         // Trata o click do botão Alterar
@@ -131,13 +132,13 @@ function init() {
             });
     }
 
-    function createComentario(comentario, refreshFunction) {
+    function createComentario(comentarios, refreshFunction) {
         fetch(apiUrl, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(comentario),
+            body: JSON.stringify(comentarios),
         })
             .then(response => response.json())
             .then(data => {

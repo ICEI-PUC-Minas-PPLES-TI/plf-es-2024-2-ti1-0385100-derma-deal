@@ -271,9 +271,8 @@
       "imagem": "/assets/images/n5.jpeg"
     }
   ],
-  "comentario":[
+  "comentarios": [
     {
-      "id":1,
       "coment": "produto de muita qualidade!"
     }
   ]
