@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main{
+    margin-top: 100px;
+    margin-left: 150px;
+    background-color: white;
+    display: grid;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#btnInsert{
+    margin-top: 7px;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}

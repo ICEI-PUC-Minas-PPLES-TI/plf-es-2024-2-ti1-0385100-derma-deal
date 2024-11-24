@@ -1,191 +1,280 @@
 {
-  "usuarios": [
+  "users": [
     {
       "id": 1,
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "name": "Thiago Perilo",
+      "birthday": "1990-06-15",
+      "personTypeId": 1,
+      "login": {
+        "email": "thiago.perilo@example.com",
+        "password": "123"
+      },
+      "favoriteItems": [
+        {
+          "id": 1,
+          "itemId": 201,
+          "name": "Gentle Cleanser",
+          "entryDate": "2024-09-10",
+          "exitDate": "2024-10-01",
+          "typeId": 1,
+          "price": {
+            "currency": "USD",
+            "amount": 19.99
+          },
+          "imagem": "/assets/images/n1.png"
+        },
+        {
+          "id": 2,
+          "itemId": 202,
+          "name": "Hydrating Moisturizer",
+          "entryDate": "2024-09-15",
+          "exitDate": null,
+          "typeId": 2,
+          "price": {
+            "currency": "USD",
+            "amount": 29.99
+          },
+          "imagem": "/assets/images/n2.png"
+        },
+        {
+          "favoriteItemId": 1730420449899,
+          "itemId": 203,
+          "name": "Vitamin C Serum",
+          "entryDate": "2024-09-20",
+          "exitDate": null,
+          "typeId": 3,
+          "price": {
+            "currency": "USD",
+            "amount": 39.99
+          },
+          "imagem": "/assets/images/n3.jpeg"
+        }
+      ],
+      "cpf": "123.456.789-00",
+      "phoneNumber": "(11) 98765-4321"
     },
     {
       "id": 2,
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
-    },
-    {
-      "login": "rommel",
-      "senha": "123",
-      "nome": "Rommel",
-      "email": "rommel@gmail.com",
-      "id": 3
+      "name": "Giu Test",
+      "birthday": "1999-06-15",
+      "personTypeId": 1,
+      "login": {
+        "email": "giu@example.com",
+        "password": "123"
+      },
+      "favoriteItems": [
+        {
+          "favoriteItemId": 1730421079543,
+          "itemId": 202,
+          "name": "Hydrating Moisturizer",
+          "entryDate": "2024-09-15",
+          "exitDate": null,
+          "typeId": 2,
+          "price": {
+            "currency": "USD",
+            "amount": 29.99
+          },
+          "imagem": "/assets/images/n2.png"
+        },
+        {
+          "favoriteItemId": 1730421089757,
+          "itemId": 203,
+          "name": "Vitamin C Serum",
+          "entryDate": "2024-09-20",
+          "exitDate": null,
+          "typeId": 3,
+          "price": {
+            "currency": "USD",
+            "amount": 39.99
+          },
+          "imagem": "/assets/images/n3.jpeg"
+        },
+        {
+          "favoriteItemId": 1730421101545,
+          "itemId": 201,
+          "name": "Gentle Cleanser",
+          "entryDate": "2024-09-10",
+          "exitDate": null,
+          "typeId": 1,
+          "price": {
+            "currency": "USD",
+            "amount": 19.99
+          },
+          "imagem": "/assets/images/n1.png"
+        },
+        {
+          "favoriteItemId": 1730421107501,
+          "itemId": 204,
+          "name": "Broad Spectrum Sunscreen",
+          "entryDate": "2024-09-25",
+          "exitDate": null,
+          "typeId": 4,
+          "price": {
+            "currency": "USD",
+            "amount": 24.99
+          },
+          "imagem": "/assets/images/n4.jpeg"
+        },
+        {
+          "favoriteItemId": 1730421112593,
+          "itemId": 205,
+          "name": "Exfoliating Scrub",
+          "entryDate": "2024-09-30",
+          "exitDate": null,
+          "typeId": 5,
+          "price": {
+            "currency": "USD",
+            "amount": 15.99
+          },
+          "imagem": "/assets/images/n5.jpeg"
+        }
+      ],
+      "cpf": "123.456.789-10",
+      "phoneNumber": "(11) 94765-4321"
     }
-  ]
- 
-  "produtos": [
+  ],
+  "itemTypes": [
     {
       "id": 1,
-      "titulo": "Hidratante Facial",
-      "imagem": "https://exemplo.com/imagem1.png",
-      "sobre": "Um hidratante leve e de rápida absorção, ideal para todos os tipos de pele. Enriquecido com ácido hialurônico para manter a pele hidratada por 24 horas."
+      "name": "Cleanser"
     },
     {
       "id": 2,
-      "titulo": "Sérum Vitamina C",
-      "imagem": "https://exemplo.com/imagem2.png",
-      "sobre": "Sérum antioxidante com vitamina C pura, que ilumina a pele e ajuda a reduzir linhas finas e manchas escuras."
+      "name": "Moisturizer"
     },
     {
       "id": 3,
-      "titulo": "Protetor Solar FPS 50",
-      "imagem": "https://exemplo.com/imagem3.png",
-      "sobre": "Protetor solar de alta proteção com FPS 50, ideal para uso diário. Ajuda a prevenir o envelhecimento precoce causado pela exposição ao sol."
+      "name": "Serum"
     },
     {
       "id": 4,
-      "titulo": "Esfoliante Facial",
-      "imagem": "https://exemplo.com/imagem4.png",
-      "sobre": "Esfoliante suave com microesferas que removem células mortas, deixando a pele mais lisa e radiante."
+      "name": "Sunscreen"
     },
     {
       "id": 5,
-      "titulo": "Máscara Facial de Argila",
-      "imagem": "https://exemplo.com/imagem5.png",
-      "sobre": "Máscara de argila purificante que limpa profundamente os poros, absorvendo o excesso de oleosidade e deixando a pele renovada."
+      "name": "Exfoliator"
+    }
+  ],
+  "personTypes": [
+    {
+      "id": 1,
+      "name": "especialista",
+      "permissions": [
+        "can_publish",
+        "can_add_favorites"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "comum",
+      "permissions": [
+        "can_add_favorites"
+      ]
+    }
+  ],
+  "favoriteItems": [
+    {
+      "id": 1,
+      "userId": 1,
+      "itemId": 201,
+      "entryDate": "2024-09-10",
+      "exitDate": "2024-10-01"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "itemId": 202,
+      "entryDate": "2024-09-15",
+      "exitDate": null
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "itemId": 203,
+      "entryDate": "2024-09-20",
+      "exitDate": null
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "itemId": 204,
+      "entryDate": "2024-09-25",
+      "exitDate": null
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "itemId": 205,
+      "entryDate": "2024-09-30",
+      "exitDate": null
+    }
+  ],
+  "productItems": [
+    {
+      "id": 201,
+      "name": "Gentle Cleanser",
+      "entryDate": "2024-09-10",
+      "price": {
+        "currency": "USD",
+        "amount": 19.99
+      },
+      "interections": 2,
+      "typeId": 1,
+      "imagem": "/assets/images/n1.png"
+    },
+    {
+      "id": 202,
+      "name": "Hydrating Moisturizer",
+      "entryDate": "2024-09-15",
+      "price": {
+        "currency": "USD",
+        "amount": 29.99
+      },
+      "interections": 2,
+      "typeId": 2,
+      "imagem": "/assets/images/n2.png"
+    },
+    {
+      "id": 203,
+      "name": "Vitamin C Serum",
+      "entryDate": "2024-09-20",
+      "price": {
+        "currency": "USD",
+        "amount": 39.99
+      },
+      "interections": 2,
+      "typeId": 3,
+      "imagem": "/assets/images/n3.jpeg"
+    },
+    {
+      "id": 204,
+      "name": "Broad Spectrum Sunscreen",
+      "entryDate": "2024-09-25",
+      "price": {
+        "currency": "USD",
+        "amount": 24.99
+      },
+      "interections": 2,
+      "typeId": 4,
+      "imagem": "/assets/images/n4.jpeg"
+    },
+    {
+      "id": 205,
+      "name": "Exfoliating Scrub",
+      "entryDate": "2024-09-30",
+      "price": {
+        "currency": "USD",
+        "amount": 15.99
+      },
+      "interections": 2,
+      "typeId": 5,
+      "imagem": "/assets/images/n5.jpeg"
+    }
+  ],
+  "comentario":[
+    {
+      "id":1,
+      "coment": "produto de muita qualidade!"
     }
   ]
-    "menu_lateral": {
-      "logo": {
-        "funcionalidade": "Redireciona para a página inicial."
-      },
-      "home": {
-        "funcionalidade": "Leva o usuário para a página principal."
-      },
-      "curtida": {
-        "funcionalidade": "Exibe itens que o usuário curtiu ou favoritou."
-      },
-      "pesquisa": {
-        "funcionalidade": "Permite que o usuário busque itens ou produtos."
-      },
-      "perfil": {
-        "funcionalidade": "Acesso às informações e configurações pessoais do usuário."
-      },
-      "explorar": {
-        "funcionalidade": "Permite que o usuário explore novos itens ou categorias."
-      },
-      "logout": {
-        "funcionalidade": "Faz o logout da conta do usuário."
-      }
-    },
-    "anuncio": {
-      "area_ad": {
-        "funcionalidade": "Espaço destinado a anúncios publicitários ou promocionais."
-      }
-    },
-    "mais_procurados": {
-      "item": {
-        "imagem": {
-          "funcionalidade": "Espaço para exibir a imagem do produto."
-        },
-        "texto": {
-          "funcionalidade": "Nome ou breve descrição do produto."
-        },
-        "preco": {
-          "funcionalidade": "Exibe o preço do produto."
-        },
-        "descricao": {
-          "funcionalidade": "Descrição adicional ou informações complementares."
-        }
-      }
-    },
-    "icones_superiores": {
-      "notificacoes": {
-        "funcionalidade": "Atalho para ver notificações."
-      },
-      "configuracoes": {
-        "funcionalidade": "Atalho para acessar as configurações."
-      },
-      "perfil_usuario": {
-        "funcionalidade": "Atalho para acessar o perfil do usuário."
-      }
-    }
-      "Menu Superior": {
-        "logo": "DERMA DEAL",
-        "opcoes": [
-          {
-            "icone": "perfil",
-            "label": "Minha Conta",
-            "link": "/minha-conta",
-            "funcionalidade": "Redireciona o usuário para sua conta pessoal."
-          },
-          {
-            "icone": "sacola",
-            "label": "Resenhas",
-            "link": "/resenhas",
-            "funcionalidade": "Leva o usuário para a página onde ele pode ver e escrever resenhas."
-          },
-          {
-            "icone": "favoritos",
-            "label": "Produtos",
-            "link": "/produtos",
-            "funcionalidade": "Direciona para a lista de produtos disponíveis no site."
-          },
-          {
-            "label": "Início",
-            "link": "/inicio",
-            "funcionalidade": "Retorna o usuário para a página principal."
-          },
-          {
-            "label": "Ajuda",
-            "link": "/ajuda",
-            "funcionalidade": "Redireciona o usuário para a página de suporte ou perguntas frequentes."
-          }
-        ]
-      },
-      "produto": {
-        "id": 1,
-        "nome": "Nome do Produto",
-        "especificacao": "Especificação do Produto",
-        "categoria": "Categoria do Produto",
-        "imagem": "url_da_imagem",
-        "classificacao": 0.0,
-        "detalhes": "Informações detalhadas do produto",
-        "funcionalidade": "Exibe os detalhes do produto, incluindo nome, especificação, categoria, imagem e avaliação média."
-      },
-      "ofertas": [
-        {
-          "site": "Site X",
-          "preco_antigo": "R$ 0000,00",
-          "preco_atual": "R$ 000,00",
-          "link": "url_para_site_x",
-          "funcionalidade": "Exibe a oferta do produto no Site X, com o preço antigo riscado e o preço atual. O botão 'Ver Mais' redireciona para o site da oferta."
-        },
-        {
-          "site": "Site Y",
-          "preco_antigo": "R$ 0000,00",
-          "preco_atual": "R$ 000,00",
-          "link": "url_para_site_y",
-          "funcionalidade": "Exibe a oferta do produto no Site Y, com o preço antigo riscado e o preço atual. O botão 'Ver Mais' redireciona para o site da oferta."
-        },
-        {
-          "site": "Site Z",
-          "preco_antigo": "R$ 0000,00",
-          "preco_atual": "R$ 000,00",
-          "link": "url_para_site_z",
-          "funcionalidade": "Exibe a oferta do produto no Site Z, com o preço antigo riscado e o preço atual. O botão 'Ver Mais' redireciona para o site da oferta."
-        }
-      ],
-      "frete": {
-        "cep": "00000-000",
-        "prazo_entrega": "XX dias",
-        "custo_frete": "R$ XX,00",
-        "funcionalidade": "Permite que o usuário insira o CEP para calcular o frete e o prazo de entrega ao clicar em 'OK'."
-      },
-      "cupom_desconto": {
-        "codigo": "CUPOM123",
-        "desconto": "R$ XX,00",
-        "funcionalidade": "Permite que o usuário insira um código de desconto. Ao clicar em 'OK', o desconto é aplicado no preço final."
-      }
-    }
-  }
+}
