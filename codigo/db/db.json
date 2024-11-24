@@ -64,33 +64,7 @@
       },
       "favoriteItems": [
         {
-          "favoriteItemId": 1730421079543,
-          "itemId": 202,
-          "name": "Hydrating Moisturizer",
-          "entryDate": "2024-09-15",
-          "exitDate": null,
-          "typeId": 2,
-          "price": {
-            "currency": "USD",
-            "amount": 29.99
-          },
-          "imagem": "/assets/images/n2.png"
-        },
-        {
-          "favoriteItemId": 1730421089757,
-          "itemId": 203,
-          "name": "Vitamin C Serum",
-          "entryDate": "2024-09-20",
-          "exitDate": null,
-          "typeId": 3,
-          "price": {
-            "currency": "USD",
-            "amount": 39.99
-          },
-          "imagem": "/assets/images/n3.jpeg"
-        },
-        {
-          "favoriteItemId": 1730421101545,
+          "favoriteItemId": 1732483772260,
           "itemId": 201,
           "name": "Gentle Cleanser",
           "entryDate": "2024-09-10",
@@ -103,30 +77,30 @@
           "imagem": "/assets/images/n1.png"
         },
         {
-          "favoriteItemId": 1730421107501,
-          "itemId": 204,
-          "name": "Broad Spectrum Sunscreen",
-          "entryDate": "2024-09-25",
+          "favoriteItemId": 1732483772811,
+          "itemId": 202,
+          "name": "Hydrating Moisturizer",
+          "entryDate": "2024-09-15",
           "exitDate": null,
-          "typeId": 4,
+          "typeId": 2,
           "price": {
             "currency": "USD",
-            "amount": 24.99
+            "amount": 29.99
           },
-          "imagem": "/assets/images/n4.jpeg"
+          "imagem": "/assets/images/n2.png"
         },
         {
-          "favoriteItemId": 1730421112593,
-          "itemId": 205,
-          "name": "Exfoliating Scrub",
-          "entryDate": "2024-09-30",
+          "favoriteItemId": 1732483773715,
+          "itemId": 203,
+          "name": "Vitamin C Serum",
+          "entryDate": "2024-09-20",
           "exitDate": null,
-          "typeId": 5,
+          "typeId": 3,
           "price": {
             "currency": "USD",
-            "amount": 15.99
+            "amount": 39.99
           },
-          "imagem": "/assets/images/n5.jpeg"
+          "imagem": "/assets/images/n3.jpeg"
         }
       ],
       "cpf": "123.456.789-10",

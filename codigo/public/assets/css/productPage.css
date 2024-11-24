@@ -1,0 +1,113 @@
+/* Estilo geral */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Estilo da div principal */
+.main-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Estilos do título principal */
+h1 {
+    font-weight: 600;
+    color: #4A148C; /* Cor roxa profunda */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo da barra de pesquisa */
+#search-bar {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* Estilos do card de produto */
+.product-card {
+    background-color: #FAF5FF; /* Roxo claro */
+    border: 1px solid #E1D5F7;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative; /* Necessário para o tooltip */
+    padding: 15px;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo das imagens */
+.product-card img {
+    border-radius: 10px;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Títulos dos produtos */
+.product-title {
+    color: #6A1B9A;
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Botões */
+.btn {
+    border-radius: 8px;
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-primary {
+    border-color: #6200EA;
+    color: #6200EA;
+}
+
+.btn-outline-primary:hover {
+    background-color: #6200EA;
+    color: #fff;
+}
+
+.btn-outline-danger {
+    border-color: #C62828;
+    color: #C62828;
+}
+
+.btn-outline-danger:hover {
+    background-color: #C62828;
+    color: #fff;
+}
+
+/* Layout responsivo */
+@media (max-width: 768px) {
+    .product-card img {
+        height: 150px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #search-bar {
+        width: 100%;
+    }
+
+    .product-card {
+        margin-bottom: 15px;
+    }
+}
