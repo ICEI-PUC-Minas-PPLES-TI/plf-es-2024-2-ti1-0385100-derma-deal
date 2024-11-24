@@ -80,3 +80,5 @@ export async function deleteProduct(productId) {
         console.error(error);
     }
 }
+
+// export { addProduct, deleteProduct, getProductById, getProducts, updateProduct };
