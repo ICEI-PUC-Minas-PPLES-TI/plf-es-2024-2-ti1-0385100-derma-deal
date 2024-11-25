@@ -1,4 +1,4 @@
-function init() {
+
     // Define uma variável para o formulário de produto
     formComent = document.getElementById("coment");
 
@@ -17,17 +17,19 @@ function init() {
         // Cria um objeto com os dados do produto
         let comentarios = [
             {
-            coment: campoComent,
+            "coment": campoComent,
             }
         ];
 
-        JSON.stringify(comentarios);
+        console.log(campoComent);
+
+        localStorage.setItem('comentarios',JSON.stringify(comentarios));
 
         // Cria o produto no banco de dados
         createComentario(comentarios, coment);
 
         // Limpa o formulario
-        formComent.reset()
+        //formComent.reset()
     });
     /*
         // Trata o click do botão Alterar
@@ -117,7 +119,7 @@ function init() {
     
         exibeContatos();
     }*/
-}
+
     const apiUrl = '/comentarios';
 
     function readComentario(processaDados) {

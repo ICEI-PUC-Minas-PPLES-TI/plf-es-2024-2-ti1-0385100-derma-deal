@@ -11,11 +11,27 @@ main{
     display: grid;
     border-radius: 5px;
     width: 80%;
+    background-color: black;
 }
 
 #btnInsert{
-    margin-top: 7px;
-    color: white;
+    height: 30px;
     background-color: green;
+    color: white;
+    margin-top: 8px;
     border-radius: 5px;
+    font-size: 15px;
+}
+
+input{
+    height: 30px;
+    border-radius: 5px;
+}
+
+body{
+    background-color: black;
+}
+
+label{
+    color: white;
 }
