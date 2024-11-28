@@ -120,7 +120,7 @@
         exibeContatos();
     }*/
 
-    const apiUrl = '/comentarios';
+    const apiUrl = '../db/db.json';
 
     function readComentario(processaDados) {
         fetch(apiUrl)
