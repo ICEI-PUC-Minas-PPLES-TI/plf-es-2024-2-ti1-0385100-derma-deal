@@ -64,32 +64,6 @@
       },
       "favoriteItems": [
         {
-          "favoriteItemId": 1732483772260,
-          "itemId": 201,
-          "name": "Gentle Cleanser",
-          "entryDate": "2024-09-10",
-          "exitDate": null,
-          "typeId": 1,
-          "price": {
-            "currency": "USD",
-            "amount": 19.99
-          },
-          "imagem": "/assets/images/n1.png"
-        },
-        {
-          "favoriteItemId": 1732483772811,
-          "itemId": 202,
-          "name": "Hydrating Moisturizer",
-          "entryDate": "2024-09-15",
-          "exitDate": null,
-          "typeId": 2,
-          "price": {
-            "currency": "USD",
-            "amount": 29.99
-          },
-          "imagem": "/assets/images/n2.png"
-        },
-        {
           "favoriteItemId": 1732483773715,
           "itemId": 203,
           "name": "Vitamin C Serum",
@@ -101,6 +75,32 @@
             "amount": 39.99
           },
           "imagem": "/assets/images/n3.jpeg"
+        },
+        {
+          "favoriteItemId": 1733926382983,
+          "itemId": 204,
+          "name": "Broad Spectrum Sunscreen",
+          "entryDate": "2024-09-25",
+          "exitDate": null,
+          "typeId": 4,
+          "price": {
+            "currency": "USD",
+            "amount": 24.99
+          },
+          "imagem": "/assets/images/n4.jpeg"
+        },
+        {
+          "favoriteItemId": 1733926388936,
+          "itemId": 205,
+          "name": "Exfoliating Scrub",
+          "entryDate": "2024-09-30",
+          "exitDate": null,
+          "typeId": 5,
+          "price": {
+            "currency": "USD",
+            "amount": 15.99
+          },
+          "imagem": "/assets/images/n5.jpeg"
         }
       ],
       "cpf": "123.456.789-10",
@@ -244,8 +244,7 @@
       "typeId": 5,
       "imagem": "/assets/images/n5.jpeg"
     }
-  ]
- 
+  ],
   "produtos": [
     {
       "id": 1,
@@ -277,138 +276,137 @@
       "imagem": "https://exemplo.com/imagem5.png",
       "sobre": "Máscara de argila purificante que limpa profundamente os poros, absorvendo o excesso de oleosidade e deixando a pele renovada."
     }
-  ]
-    "menu_lateral": {
-      "logo": {
-        "funcionalidade": "Redireciona para a página inicial."
-      },
-      "home": {
-        "funcionalidade": "Leva o usuário para a página principal."
-      },
-      "curtida": {
-        "funcionalidade": "Exibe itens que o usuário curtiu ou favoritou."
-      },
-      "pesquisa": {
-        "funcionalidade": "Permite que o usuário busque itens ou produtos."
-      },
-      "perfil": {
-        "funcionalidade": "Acesso às informações e configurações pessoais do usuário."
-      },
-      "explorar": {
-        "funcionalidade": "Permite que o usuário explore novos itens ou categorias."
-      },
-      "logout": {
-        "funcionalidade": "Faz o logout da conta do usuário."
-      }
+  ],
+  "menu_lateral": {
+    "logo": {
+      "funcionalidade": "Redireciona para a página inicial."
     },
-    "anuncio": {
-      "area_ad": {
-        "funcionalidade": "Espaço destinado a anúncios publicitários ou promocionais."
-      }
+    "home": {
+      "funcionalidade": "Leva o usuário para a página principal."
     },
-    "mais_procurados": {
-      "item": {
-        "imagem": {
-          "funcionalidade": "Espaço para exibir a imagem do produto."
-        },
-        "texto": {
-          "funcionalidade": "Nome ou breve descrição do produto."
-        },
-        "preco": {
-          "funcionalidade": "Exibe o preço do produto."
-        },
-        "descricao": {
-          "funcionalidade": "Descrição adicional ou informações complementares."
-        }
-      }
+    "curtida": {
+      "funcionalidade": "Exibe itens que o usuário curtiu ou favoritou."
     },
-    "icones_superiores": {
-      "notificacoes": {
-        "funcionalidade": "Atalho para ver notificações."
+    "pesquisa": {
+      "funcionalidade": "Permite que o usuário busque itens ou produtos."
+    },
+    "perfil": {
+      "funcionalidade": "Acesso às informações e configurações pessoais do usuário."
+    },
+    "explorar": {
+      "funcionalidade": "Permite que o usuário explore novos itens ou categorias."
+    },
+    "logout": {
+      "funcionalidade": "Faz o logout da conta do usuário."
+    }
+  },
+  "anuncio": {
+    "area_ad": {
+      "funcionalidade": "Espaço destinado a anúncios publicitários ou promocionais."
+    }
+  },
+  "mais_procurados": {
+    "item": {
+      "imagem": {
+        "funcionalidade": "Espaço para exibir a imagem do produto."
       },
-      "configuracoes": {
-        "funcionalidade": "Atalho para acessar as configurações."
+      "texto": {
+        "funcionalidade": "Nome ou breve descrição do produto."
       },
-      "perfil_usuario": {
-        "funcionalidade": "Atalho para acessar o perfil do usuário."
+      "preco": {
+        "funcionalidade": "Exibe o preço do produto."
+      },
+      "descricao": {
+        "funcionalidade": "Descrição adicional ou informações complementares."
       }
     }
-      "Menu Superior": {
-        "logo": "DERMA DEAL",
-        "opcoes": [
-          {
-            "icone": "perfil",
-            "label": "Minha Conta",
-            "link": "/minha-conta",
-            "funcionalidade": "Redireciona o usuário para sua conta pessoal."
-          },
-          {
-            "icone": "sacola",
-            "label": "Resenhas",
-            "link": "/resenhas",
-            "funcionalidade": "Leva o usuário para a página onde ele pode ver e escrever resenhas."
-          },
-          {
-            "icone": "favoritos",
-            "label": "Produtos",
-            "link": "/produtos",
-            "funcionalidade": "Direciona para a lista de produtos disponíveis no site."
-          },
-          {
-            "label": "Início",
-            "link": "/inicio",
-            "funcionalidade": "Retorna o usuário para a página principal."
-          },
-          {
-            "label": "Ajuda",
-            "link": "/ajuda",
-            "funcionalidade": "Redireciona o usuário para a página de suporte ou perguntas frequentes."
-          }
-        ]
-      },
-      "produto": {
-        "id": 1,
-        "nome": "Nome do Produto",
-        "especificacao": "Especificação do Produto",
-        "categoria": "Categoria do Produto",
-        "imagem": "url_da_imagem",
-        "classificacao": 0.0,
-        "detalhes": "Informações detalhadas do produto",
-        "funcionalidade": "Exibe os detalhes do produto, incluindo nome, especificação, categoria, imagem e avaliação média."
-      },
-      "ofertas": [
-        {
-          "site": "Site X",
-          "preco_antigo": "R$ 0000,00",
-          "preco_atual": "R$ 000,00",
-          "link": "url_para_site_x",
-          "funcionalidade": "Exibe a oferta do produto no Site X, com o preço antigo riscado e o preço atual. O botão 'Ver Mais' redireciona para o site da oferta."
-        },
-        {
-          "site": "Site Y",
-          "preco_antigo": "R$ 0000,00",
-          "preco_atual": "R$ 000,00",
-          "link": "url_para_site_y",
-          "funcionalidade": "Exibe a oferta do produto no Site Y, com o preço antigo riscado e o preço atual. O botão 'Ver Mais' redireciona para o site da oferta."
-        },
-        {
-          "site": "Site Z",
-          "preco_antigo": "R$ 0000,00",
-          "preco_atual": "R$ 000,00",
-          "link": "url_para_site_z",
-          "funcionalidade": "Exibe a oferta do produto no Site Z, com o preço antigo riscado e o preço atual. O botão 'Ver Mais' redireciona para o site da oferta."
-        }
-      ],
-      "frete": {
-        "cep": "00000-000",
-        "prazo_entrega": "XX dias",
-        "custo_frete": "R$ XX,00",
-        "funcionalidade": "Permite que o usuário insira o CEP para calcular o frete e o prazo de entrega ao clicar em 'OK'."
-      },
-      "cupom_desconto": {
-        "codigo": "CUPOM123",
-        "desconto": "R$ XX,00",
-        "funcionalidade": "Permite que o usuário insira um código de desconto. Ao clicar em 'OK', o desconto é aplicado no preço final."
-      }
+  },
+  "icones_superiores": {
+    "notificacoes": {
+      "funcionalidade": "Atalho para ver notificações."
+    },
+    "configuracoes": {
+      "funcionalidade": "Atalho para acessar as configurações."
+    },
+    "perfil_usuario": {
+      "funcionalidade": "Atalho para acessar o perfil do usuário."
     }
+  },
+  "Menu Superior": {
+    "logo": "DERMA DEAL",
+    "opcoes": [
+      {
+        "icone": "perfil",
+        "label": "Minha Conta",
+        "link": "/minha-conta",
+        "funcionalidade": "Redireciona o usuário para sua conta pessoal."
+      },
+      {
+        "icone": "sacola",
+        "label": "Resenhas",
+        "link": "/resenhas",
+        "funcionalidade": "Leva o usuário para a página onde ele pode ver e escrever resenhas."
+      },
+      {
+        "icone": "favoritos",
+        "label": "Produtos",
+        "link": "/produtos",
+        "funcionalidade": "Direciona para a lista de produtos disponíveis no site."
+      },
+      {
+        "label": "Início",
+        "link": "/inicio",
+        "funcionalidade": "Retorna o usuário para a página principal."
+      },
+      {
+        "label": "Ajuda",
+        "link": "/ajuda",
+        "funcionalidade": "Redireciona o usuário para a página de suporte ou perguntas frequentes."
+      }
+    ]
+  },
+  "produto": {
+    "id": 1,
+    "nome": "Nome do Produto",
+    "especificacao": "Especificação do Produto",
+    "categoria": "Categoria do Produto",
+    "imagem": "url_da_imagem",
+    "classificacao": 0,
+    "detalhes": "Informações detalhadas do produto",
+    "funcionalidade": "Exibe os detalhes do produto, incluindo nome, especificação, categoria, imagem e avaliação média."
+  },
+  "ofertas": [
+    {
+      "site": "Site X",
+      "preco_antigo": "R$ 0000,00",
+      "preco_atual": "R$ 000,00",
+      "link": "url_para_site_x",
+      "funcionalidade": "Exibe a oferta do produto no Site X, com o preço antigo riscado e o preço atual. O botão 'Ver Mais' redireciona para o site da oferta."
+    },
+    {
+      "site": "Site Y",
+      "preco_antigo": "R$ 0000,00",
+      "preco_atual": "R$ 000,00",
+      "link": "url_para_site_y",
+      "funcionalidade": "Exibe a oferta do produto no Site Y, com o preço antigo riscado e o preço atual. O botão 'Ver Mais' redireciona para o site da oferta."
+    },
+    {
+      "site": "Site Z",
+      "preco_antigo": "R$ 0000,00",
+      "preco_atual": "R$ 000,00",
+      "link": "url_para_site_z",
+      "funcionalidade": "Exibe a oferta do produto no Site Z, com o preço antigo riscado e o preço atual. O botão 'Ver Mais' redireciona para o site da oferta."
+    }
+  ],
+  "frete": {
+    "cep": "00000-000",
+    "prazo_entrega": "XX dias",
+    "custo_frete": "R$ XX,00",
+    "funcionalidade": "Permite que o usuário insira o CEP para calcular o frete e o prazo de entrega ao clicar em 'OK'."
+  },
+  "cupom_desconto": {
+    "codigo": "CUPOM123",
+    "desconto": "R$ XX,00",
+    "funcionalidade": "Permite que o usuário insira um código de desconto. Ao clicar em 'OK', o desconto é aplicado no preço final."
   }
+}
