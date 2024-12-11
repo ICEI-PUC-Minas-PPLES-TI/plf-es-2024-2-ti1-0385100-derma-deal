@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Teste - FavoriteService</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script type="module" src="script.js" defer></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Página de Teste - FavoriteService</h1>
+
+        <div id="usuario-logado"></div>
+        
+        <div class="mt-4">
+            <input type="text" id="userIdInput" class="form-control" placeholder="Insira o ID do usuário">
+            <button id="confirmUserId" class="btn btn-primary mt-2">Confirmar</button>
+            <div id="usuarioInfo" class="mt-3"></div>
+        </div>
+
+        <button id="getFavoriteItems" class="btn btn-info mt-4">Obter Itens Favoritos</button>
+        <div id="favoriteItems" class="mt-3"></div>
+
+        <div id="checkProductSection" class="mt-4" style="display: none;">
+            <input type="text" id="productIdInput" class="form-control" placeholder="Insira o ID do produto">
+            <button id="confirmProductId" class="btn btn-primary mt-2">Confirmar</button>
+            <div id="productInfo" class="mt-3"></div>
+        </div>
+
+        <div id="favoriteActions" class="mt-4" style="display: none;">
+            <button id="removeFavorite" class="btn btn-danger">Remover do Favorito</button>
+            <button id="addFavorite" class="btn btn-success">Adicionar aos Favoritos</button>
+        </div>
+    </div>
+</body>
+</html>
